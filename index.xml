@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataIndex battleScribeVersion="2.03" name="Warhammer Patrullas 6ed" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+  <dataIndexEntries>
+    <dataIndexEntry filePath="Warhammer Patrullas 6ed.gstz" dataType="gamesystem" dataId="33ac-caba-e4b6-0c32" dataName="Warhammer Fantasy 6ed" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Estalia 6ed.catz" dataType="catalogue" dataId="de48-1646-27dc-5c88" dataName="Estalia 6ed" dataBattleScribeVersion="2.03" dataRevision="3"/>
+    <dataIndexEntry filePath="Mercenarios 6ed.catz" dataType="catalogue" dataId="0749-5cfe-3a7b-157e" dataName="Mercenarios 6ed" dataBattleScribeVersion="2.03" dataRevision="6"/>
+  </dataIndexEntries>
+</dataIndex>
