@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="de48-1646-27dc-5c88" name="Estalia 6ed" revision="4" battleScribeVersion="2.03" authorName="Javier García &quot;Dwayne Hicks&quot;" authorContact="cabohicks1986@gmail.com" authorUrl="http://www.leyendasenminiatura.com/" library="false" gameSystemId="33ac-caba-e4b6-0c32" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="de48-1646-27dc-5c88" name="Estalia 6ed" revision="5" battleScribeVersion="2.03" authorName="Javier García &quot;Dwayne Hicks&quot;" authorContact="cabohicks1986@gmail.com" authorUrl="http://www.leyendasenminiatura.com/" library="false" gameSystemId="33ac-caba-e4b6-0c32" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Creado a partir de los magnificos ficheros de Cordo, de Leyendas en Miniatura:
 
 http://www.leyendasenminiatura.com/</readme>
@@ -2908,7 +2908,7 @@ http://www.leyendasenminiatura.com/</readme>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="dcc8-73de-d447-4599" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="dcc8-73de-d447-4599" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="da09-11b1-f687-1709">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f4-a6f8-cd76-31b9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06fe-2a6d-d5a2-dc52" type="min"/>
@@ -3643,7 +3643,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="e635-417b-9754-2767" name="Hoja solar" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cae-028e-924d-6f72" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cae-028e-924d-6f72" type="max"/>
           </constraints>
           <profiles>
             <profile id="8e52-36d6-bdc2-f172" name="Hoja solar" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -3661,7 +3661,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="ec7e-192d-6b2f-09cd" name="Espada de los príncipes" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5123-0007-6fbe-5d8f" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5123-0007-6fbe-5d8f" type="max"/>
           </constraints>
           <profiles>
             <profile id="a0bf-4b02-f246-181a" name="Espada de los príncipes" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -3678,7 +3678,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="b89a-da90-a659-a47a" name="Hendedora" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f91-0ea4-7ecd-4472" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f91-0ea4-7ecd-4472" type="max"/>
           </constraints>
           <profiles>
             <profile id="32bd-f144-569c-20fb" name="Hendedora" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -3695,7 +3695,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="b09e-2175-c2dd-1a67" name="Portadora de dolores" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b7-9199-0a95-72d4" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b7-9199-0a95-72d4" type="max"/>
           </constraints>
           <profiles>
             <profile id="438b-b51d-1b1c-7995" name="Portadora de dolores" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -3712,7 +3712,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="4b9a-3b96-984f-4281" name="Estoque del duelista" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3ba-965d-e0c6-a686" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3ba-965d-e0c6-a686" type="max"/>
           </constraints>
           <profiles>
             <profile id="4615-d8a5-ee46-d41c" name="Estoque del duelista" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -3729,7 +3729,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="61ad-d420-6bcf-73e2" name="Daga asesina" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b67b-e4d1-9b04-4907" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b67b-e4d1-9b04-4907" type="max"/>
           </constraints>
           <profiles>
             <profile id="7288-a0f8-c4ec-831e" name="Daga asesina" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -3746,7 +3746,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="e0ea-7d36-ebff-092a" name="Matavampiros" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ac-846a-61a9-893b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ac-846a-61a9-893b" type="max"/>
           </constraints>
           <profiles>
             <profile id="cd69-15bc-3de9-4dee" name="Matavampiros" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -3763,7 +3763,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="a04e-74c1-a6fa-d92c" name="Espada de la maestría" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="723c-0f53-5efc-3241" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="723c-0f53-5efc-3241" type="max"/>
           </constraints>
           <profiles>
             <profile id="d381-1d3e-58d4-3302" name="Espada de la maestría" hidden="false" typeId="83dc-30c1-3c91-3ea4" typeName="Arma">
@@ -3800,7 +3800,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="dee1-874a-b207-fc48" name="Armadura de la salvaguardia" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3134-67e0-8fc5-fbfb" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3134-67e0-8fc5-fbfb" type="max"/>
           </constraints>
           <profiles>
             <profile id="f065-7f80-1731-8e90" name="Armadura de la salvaguardia" hidden="false" typeId="7895-caab-ea85-11a6" typeName="Armadura">
@@ -3816,7 +3816,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="bef6-5d2b-479e-90fc" name="Armadura real" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbfd-ee86-7dc4-0fe2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbfd-ee86-7dc4-0fe2" type="max"/>
           </constraints>
           <profiles>
             <profile id="c59b-8f8b-1c9a-5a2f" name="Armadura real" hidden="false" typeId="7895-caab-ea85-11a6" typeName="Armadura">
@@ -3832,7 +3832,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="c926-5de6-6877-e208" name="Armadura sagrada" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3104-934f-569d-a3bf" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3104-934f-569d-a3bf" type="max"/>
           </constraints>
           <profiles>
             <profile id="68a5-7c35-9bfe-f129" name="Armadura sagrada" hidden="false" typeId="7895-caab-ea85-11a6" typeName="Armadura">
@@ -3848,7 +3848,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="f3b3-775a-f474-04e3" name="Escudo de acero" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f237-6fa5-a5e1-3e8c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f237-6fa5-a5e1-3e8c" type="max"/>
           </constraints>
           <profiles>
             <profile id="e0e6-cdfb-0331-4bc0" name="Escudo de acero" hidden="false" typeId="7895-caab-ea85-11a6" typeName="Armadura">
@@ -3864,7 +3864,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="76c2-c527-e7d8-4adf" name="Armadura solar" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="385a-9890-300e-79d7" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="385a-9890-300e-79d7" type="max"/>
           </constraints>
           <profiles>
             <profile id="815b-8f6b-5a36-ad68" name="Armadura solar" hidden="false" typeId="7895-caab-ea85-11a6" typeName="Armadura">
@@ -3880,7 +3880,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="aeff-53e1-2d6e-59eb" name="Armadura bendita" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d575-a843-461f-b6a0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d575-a843-461f-b6a0" type="max"/>
           </constraints>
           <profiles>
             <profile id="1839-765d-35e5-9db9" name="Armadura bendita" hidden="false" typeId="7895-caab-ea85-11a6" typeName="Armadura">
@@ -3896,7 +3896,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="b4fd-0e33-ce8b-762d" name="Peto del conquistador" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f375-eca4-b26a-3ed4" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f375-eca4-b26a-3ed4" type="max"/>
           </constraints>
           <profiles>
             <profile id="1d53-0740-3d5b-dd42" name="Peto del conquistador" hidden="false" typeId="7895-caab-ea85-11a6" typeName="Armadura">
@@ -3931,7 +3931,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="0a2b-8407-cb10-1381" name="Medallón de la Fe" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9649-0939-b003-ffce" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9649-0939-b003-ffce" type="max"/>
           </constraints>
           <profiles>
             <profile id="fa9e-bde6-73ec-257b" name="Medallón de la Fe" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -3946,7 +3946,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="a2a5-6717-ed81-a804" name="Gema de salvaguarda" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03e7-3a19-5a07-5dda" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03e7-3a19-5a07-5dda" type="max"/>
           </constraints>
           <profiles>
             <profile id="9dd1-6a29-e5b4-8923" name="Gema de salvaguarda" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -3961,7 +3961,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="a828-c1c9-ee83-86a2" name="Cruz sagrada de Myrmidia" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6ad-cd2a-9845-5f94" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6ad-cd2a-9845-5f94" type="max"/>
           </constraints>
           <profiles>
             <profile id="c1ea-ff72-b04b-77a6" name="Cruz sagrada de Myrmidia" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -3976,7 +3976,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="03b3-867a-e7af-35b3" name="Manto de Laurana" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a06-1bde-beff-81bd" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a06-1bde-beff-81bd" type="max"/>
           </constraints>
           <profiles>
             <profile id="c0e8-6e14-2b1c-d5e8" name="Manto de Laurana" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -3991,7 +3991,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="23a6-cb5d-b3ed-d093" name="Sello de la rectitud" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a43d-92fe-282b-2bda" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a43d-92fe-282b-2bda" type="max"/>
           </constraints>
           <profiles>
             <profile id="6426-d191-b84c-886d" name="Sello de la rectitud" hidden="false" typeId="7e35-c20a-e9e9-6dad" typeName="Talismán">
@@ -4049,7 +4049,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="9960-0340-7bd1-f7e9" name="LIbro de la sabiduría" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34fb-a589-d202-dac7" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34fb-a589-d202-dac7" type="max"/>
           </constraints>
           <profiles>
             <profile id="a223-60b1-5fd8-c13b" name="LIbro de la sabiduría" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4064,7 +4064,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="3de3-ab01-6ab6-2997" name="Piedra de la suerte" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccf9-dc22-28ce-63f6" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccf9-dc22-28ce-63f6" type="max"/>
           </constraints>
           <profiles>
             <profile id="bdef-6904-26f2-969c" name="Piedra de la suerte" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4079,7 +4079,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="2f2a-17aa-ce4f-f290" name="Escrituras sagradas" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba45-4150-3d8c-090b" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba45-4150-3d8c-090b" type="max"/>
           </constraints>
           <profiles>
             <profile id="f4c3-002c-4dff-e238" name="Escrituras sagradas" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4094,7 +4094,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="71a5-6f23-a1b0-c972" name="Pergamino de defensa" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2460-e54d-bfac-a3c8" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2460-e54d-bfac-a3c8" type="max"/>
           </constraints>
           <profiles>
             <profile id="23fc-7f68-7c2a-50bd" name="Pergamino de defensa" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4113,7 +4113,7 @@ http://www.leyendasenminiatura.com/</readme>
       <selectionEntries>
         <selectionEntry id="8955-f67a-7f5c-dbca" name="Pócima curativa" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15a5-075e-a2d7-cc95" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15a5-075e-a2d7-cc95" type="max"/>
           </constraints>
           <profiles>
             <profile id="52d6-d2b0-e84b-6576" name="Pócima curativa" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4128,7 +4128,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="5621-1a31-f764-289c" name="Reliquia sagrada" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b24-082b-ba18-2db7" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b24-082b-ba18-2db7" type="max"/>
           </constraints>
           <profiles>
             <profile id="3a5b-e123-d8a8-2137" name="Reliquia sagrada" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4143,7 +4143,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="b5dc-382c-67a6-bc9c" name="Medalla de la justa venganza" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aac3-c53b-1c5a-01ec" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aac3-c53b-1c5a-01ec" type="max"/>
           </constraints>
           <profiles>
             <profile id="18e9-1272-3d72-f4c9" name="Medalla de la justa venganza" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4158,7 +4158,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="5de3-cc99-58eb-367d" name="Bastón de Bilbali" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efc4-832b-835b-29c3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efc4-832b-835b-29c3" type="max"/>
           </constraints>
           <profiles>
             <profile id="d82a-28e0-a1ae-c348" name="Bastón de Bilbali" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4173,7 +4173,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="6cfc-3d5d-7c2c-2f31" name="Guantes de la precisión" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9213-775d-39b9-0ea2" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9213-775d-39b9-0ea2" type="max"/>
           </constraints>
           <profiles>
             <profile id="ba27-4325-6b54-6c6c" name="Guantes de la precisión" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4207,7 +4207,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="f5eb-ded5-2c16-2225" name="Estandarte de Myrmidia" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="7ac4-2c47-97a5-50fc" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="7ac4-2c47-97a5-50fc" type="max"/>
           </constraints>
           <profiles>
             <profile id="fecf-0a2b-2a27-b02d" name="Estandarte de Myrmidia" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4222,7 +4222,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="32ae-b2d4-9810-bfd2" name="Estandate de los veteranos" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22b8-fa34-8b63-b6f8" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22b8-fa34-8b63-b6f8" type="max"/>
           </constraints>
           <profiles>
             <profile id="c51d-7d0b-1598-2865" name="Estandate de los veteranos" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4237,7 +4237,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="d999-cc83-cbd1-9037" name="Pabellón del coraje" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d61-3298-9417-0e00" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d61-3298-9417-0e00" type="max"/>
           </constraints>
           <profiles>
             <profile id="83f6-dff5-70d9-98e7" name="Pabellón del coraje" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4252,7 +4252,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="c6cb-aae1-c17b-aeee" name="Estandarte de la resistencia" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab6d-333d-ce53-62d0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab6d-333d-ce53-62d0" type="max"/>
           </constraints>
           <profiles>
             <profile id="f578-6911-418d-563d" name="Estandarte de la resistencia" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4267,7 +4267,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="981b-74db-bffa-8e0f" name="Pabellón de la defensa" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5ea-a9f3-ea87-a45c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5ea-a9f3-ea87-a45c" type="max"/>
           </constraints>
           <profiles>
             <profile id="fddd-ff12-0d9c-fe6a" name="Pabellón de la defensa" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
@@ -4282,7 +4282,7 @@ http://www.leyendasenminiatura.com/</readme>
         </selectionEntry>
         <selectionEntry id="25ae-fef0-ece8-c3c9" name="Estandarte de la valentia" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14c9-e5df-daae-1d66" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14c9-e5df-daae-1d66" type="max"/>
           </constraints>
           <profiles>
             <profile id="ab6a-d0a6-6f63-107e" name="Estandarte de la valentia" hidden="false" typeId="0912-c473-dc44-71c2" typeName="Objetos mágicos">
