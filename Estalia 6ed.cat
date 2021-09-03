@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="de48-1646-27dc-5c88" name="Estalia 6ed" revision="5" battleScribeVersion="2.03" authorName="Javier García &quot;Dwayne Hicks&quot;" authorContact="cabohicks1986@gmail.com" authorUrl="http://www.leyendasenminiatura.com/" library="false" gameSystemId="33ac-caba-e4b6-0c32" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="de48-1646-27dc-5c88" name="Estalia 6ed" revision="6" battleScribeVersion="2.03" authorName="Javier García &quot;Dwayne Hicks&quot;" authorContact="cabohicks1986@gmail.com" authorUrl="http://www.leyendasenminiatura.com/" library="false" gameSystemId="33ac-caba-e4b6-0c32" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Creado a partir de los magnificos ficheros de Cordo, de Leyendas en Miniatura:
 
 http://www.leyendasenminiatura.com/</readme>
@@ -2972,6 +2972,9 @@ http://www.leyendasenminiatura.com/</readme>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="45aa-209e-fcb3-5fd7" name="Armas de proyectiles" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3697-0d97-2a96-c38a" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="5f30-306a-9196-8f49" name="Ballesta" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3167,7 +3170,7 @@ http://www.leyendasenminiatura.com/</readme>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="45af-5fea-6dbc-131d" name="Saber" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="45af-5fea-6dbc-131d" name="Saber" hidden="false" collective="false" import="true" defaultSelectionEntryId="8d68-1356-ae38-c4de">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5efe-bd9a-0d70-d4bc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f28f-d6c1-6a0c-1e4e" type="max"/>
