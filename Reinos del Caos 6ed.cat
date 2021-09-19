@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ec9-3503-758a-a134" name="Reinos del Caos 6ed" revision="3" battleScribeVersion="2.03" authorName="Javier García &quot;Dwayne Hicks&quot;" authorContact="cabohicks1986@gmail.com" authorUrl="https://cabohicks.blogspot.com" library="false" gameSystemId="33ac-caba-e4b6-0c32" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ec9-3503-758a-a134" name="Reinos del Caos 6ed" revision="4" battleScribeVersion="2.03" authorName="Javier García &quot;Dwayne Hicks&quot;" authorContact="cabohicks1986@gmail.com" authorUrl="https://cabohicks.blogspot.com" library="false" gameSystemId="33ac-caba-e4b6-0c32" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Creado a partir del increible trabajo de la gente de Leyendas en Minuatura, en especial de Cordo, para WHFB 6ed + MdN:
 
 http://www.leyendasenminiatura.com
@@ -52,6 +52,7 @@ http://www.leyendasenminiatura.com
       </profiles>
       <categoryLinks>
         <categoryLink id="1fde-d030-4a67-9f83" name="New CategoryLink" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
+        <categoryLink id="6d65-40e8-3228-b027" name="Mortales" hidden="false" targetId="3c3f-d9d0-726f-baab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2d45-7986-6d40-3c40" name="Grupo de mando" hidden="false" collective="false" import="true" type="upgrade">
@@ -243,6 +244,7 @@ http://www.leyendasenminiatura.com
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a676-9991-3d2f-9d97" name="New CategoryLink" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
+        <categoryLink id="e793-a638-3708-840e" name="Mortales" hidden="false" targetId="3c3f-d9d0-726f-baab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8f54-d273-f970-b09f" name="Caballeros del Caos" hidden="false" collective="false" import="true" type="upgrade">
@@ -496,6 +498,7 @@ a la reserva de dados de energía del ejército. Gana el tipo de unidad Tzeentch
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c2dc-b55e-2c6f-3ebd" name="New CategoryLink" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
+        <categoryLink id="62be-4b05-a3b2-0e29" name="Mortales" hidden="false" targetId="3c3f-d9d0-726f-baab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cf76-299b-73f4-ed3c" name="Corcel del Caos con barda" hidden="false" collective="false" import="true" type="upgrade">
@@ -779,7 +782,7 @@ de 5D6. Gana el tipo de unidad Slaanesh.</description>
         <cost name="puntos" typeId="53ea-00f4-9046-81ff" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8818-2548-b363-640d" name="[M] Gran hechicero del Caos" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="8818-2548-b363-640d" name="Gran hechicero del Caos" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="029d-9dcd-c530-2da9" name="Gran hechicero del Caos" hidden="false" typeId="1025-8460-b30f-58db" typeName="Modelo">
           <characteristics>
@@ -810,6 +813,7 @@ de 5D6. Gana el tipo de unidad Slaanesh.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9a39-bbc0-d80a-61cb" name="New CategoryLink" hidden="false" targetId="9769-7233-6405-675e" primary="true"/>
+        <categoryLink id="58a3-3a5a-c639-f1d0" name="Mortales" hidden="false" targetId="3c3f-d9d0-726f-baab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0271-1264-af6e-79b6" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1170,6 +1174,7 @@ Muerte o Fuego. Puede ir montado en Diablo de Slaanesh (+40). Gana el tipo de un
       </infoLinks>
       <categoryLinks>
         <categoryLink id="43ed-21c6-4a83-ace2" name="New CategoryLink" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
+        <categoryLink id="1862-4758-c0bb-170d" name="Mortales" hidden="false" targetId="3c3f-d9d0-726f-baab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8300-c840-2bd7-ae6a" name="Grupo de mando" hidden="false" collective="false" import="true" type="upgrade">
@@ -1447,6 +1452,7 @@ a la reserva de dados de energía del ejército. Gana el tipo de unidad Tzeentch
       </infoLinks>
       <categoryLinks>
         <categoryLink id="12d8-9132-f6a1-6744" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="bfa0-ed46-0586-5fa1" name="Mortales" hidden="false" targetId="3c3f-d9d0-726f-baab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4fe1-7b6f-6b02-b360" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -1753,6 +1759,7 @@ el Saber de Nurgle, Sombras, Muerte o Fuego.Puede ir montado en Diablo de Slaane
       </infoLinks>
       <categoryLinks>
         <categoryLink id="39fd-1b5e-a08a-8a6a" name="New CategoryLink" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
+        <categoryLink id="5f32-69f3-38cf-6939" name="Mortales" hidden="false" targetId="3c3f-d9d0-726f-baab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2838-90f9-b903-741d" name="Jinetes bárbaros" hidden="false" collective="false" import="true" type="upgrade">
@@ -1918,6 +1925,8 @@ el Saber de Nurgle, Sombras, Muerte o Fuego.Puede ir montado en Diablo de Slaane
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8a2e-efca-d0cc-4fae" name="New CategoryLink" hidden="false" targetId="1d1b-cc9c-0363-a756" primary="true"/>
+        <categoryLink id="7444-df53-5d4c-e880" name="Bestias" hidden="false" targetId="60f9-5e26-2eab-63c2" primary="false"/>
+        <categoryLink id="1381-6d28-6f52-73ef" name="Mortales" hidden="false" targetId="3c3f-d9d0-726f-baab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9820-52e2-aaee-d2a8" name="Mastines" hidden="false" collective="false" import="true" type="upgrade">
@@ -1992,6 +2001,7 @@ el Saber de Nurgle, Sombras, Muerte o Fuego.Puede ir montado en Diablo de Slaane
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dcbe-273b-9aa6-22a6" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="b50c-9ea1-40c1-53f6" name="Mortales" hidden="false" targetId="3c3f-d9d0-726f-baab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="27de-8c50-b79a-a87b" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2284,6 +2294,7 @@ Diablo de Slaanesh (+40). Gana el tipo de unidad Slaanesh.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9c9a-bd77-6a06-dab5" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="e9f0-1db9-a73f-c698" name="Mortales" hidden="false" targetId="3c3f-d9d0-726f-baab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5e6e-833b-60ea-7191" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2600,6 +2611,7 @@ Diablo de Slaanesh (+40). Gana el tipo de unidad Slaanesh.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8cbd-de72-1586-45b1" name="New CategoryLink" hidden="false" targetId="9769-7233-6405-675e" primary="true"/>
+        <categoryLink id="bc8d-2127-5e98-c417" name="Mortales" hidden="false" targetId="3c3f-d9d0-726f-baab" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="21a6-42ad-3e06-27ab" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -2931,7 +2943,8 @@ saber de Tzeentch. Puede ser hechicero pese a llevar armadura (normal o mágica)
         <infoLink id="a0f9-f12b-6735-8915" name="Impactos por carga (1D6+1)" hidden="false" targetId="2518-df58-89ad-82cb" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="870d-1be8-8f51-6da5" name="New CategoryLink" hidden="false" targetId="102e-012c-5785-3354" primary="true"/>
+        <categoryLink id="5388-506f-b884-b632" name="New CategoryLink" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
+        <categoryLink id="7bf3-6e89-fab4-db9d" name="Bestias" hidden="false" targetId="60f9-5e26-2eab-63c2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8c6c-5bcb-01d5-4186" name="Tuskgor" hidden="false" collective="false" import="true" type="upgrade">
@@ -3142,7 +3155,9 @@ saber de Tzeentch. Puede ser hechicero pese a llevar armadura (normal o mágica)
         <infoLink id="1653-2c9d-a6ba-1015" name="Marcas del Caos" hidden="false" targetId="b02a-c54b-ed52-2926" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ce83-9ceb-1974-bd46" name="New CategoryLink" hidden="false" targetId="102e-012c-5785-3354" primary="true"/>
+        <categoryLink id="ce83-9ceb-1974-bd46" name="New CategoryLink" hidden="false" targetId="102e-012c-5785-3354" primary="false"/>
+        <categoryLink id="bd06-d46d-f665-8c54" name="Unidad básica" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
+        <categoryLink id="cd4a-1a9e-beb8-b1fb" name="Bestias" hidden="false" targetId="60f9-5e26-2eab-63c2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="de09-f942-6708-7582" name="Grupo de mando" hidden="false" collective="false" import="true" type="upgrade">
@@ -3599,6 +3614,7 @@ ni el cuerno o tambor.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d6e4-2753-3e06-e167" name="New CategoryLink" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
+        <categoryLink id="64e4-238a-d49a-8ed4" name="Bestias" hidden="false" targetId="60f9-5e26-2eab-63c2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d6ee-e026-16f4-cae5" name="Grupo de mando (solo gor)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4534,6 +4550,7 @@ Dragón (una unidad no puede unirse a otra), pero un Gran Shaggoth (personaje) s
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c8e3-b6cd-59ae-1658" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="a16f-4bfc-1a2f-5917" name="Bestias" hidden="false" targetId="60f9-5e26-2eab-63c2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="db9d-e505-c304-4435" name="Portaestandarte de batalla" hidden="false" collective="false" import="true" type="upgrade">
@@ -4773,6 +4790,7 @@ Tzeentch. Puede ser hechicero pese a llevar armadura (normal o mágica). Gana el
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5957-36af-28f4-db40" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="7a70-f6c2-112f-7b7e" name="Bestias" hidden="false" targetId="60f9-5e26-2eab-63c2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b1ab-6d9d-9b89-7e9b" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -5018,6 +5036,7 @@ Slaanesh, Bestias, Sombras o Muerte. Gana el tipo de unidad Slaanesh.</descripti
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a312-556e-f29b-1ccd" name="New CategoryLink" hidden="false" targetId="9769-7233-6405-675e" primary="true"/>
+        <categoryLink id="5aec-87d6-7265-11eb" name="Bestias" hidden="false" targetId="60f9-5e26-2eab-63c2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="24e9-6121-ea1b-80ca" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -5261,6 +5280,7 @@ Tzeentch. Puede ser hechicero pese a llevar armadura (normal o mágica). Gana el
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1cec-000a-268b-e30f" name="New CategoryLink" hidden="false" targetId="9769-7233-6405-675e" primary="true"/>
+        <categoryLink id="0aa0-4bd2-462d-55ad" name="Bestias" hidden="false" targetId="60f9-5e26-2eab-63c2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d279-79a5-39dd-d68e" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -5519,6 +5539,7 @@ de Slaanesh, Bestias, Sombras o Muerte. Gana el tipo de unidad Slaanesh.</descri
       </infoLinks>
       <categoryLinks>
         <categoryLink id="68b2-a6ac-554b-e85e" name="New CategoryLink" hidden="false" targetId="9769-7233-6405-675e" primary="true"/>
+        <categoryLink id="d504-d33b-656e-98c7" name="Bestias" hidden="false" targetId="60f9-5e26-2eab-63c2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8cf7-31c2-8eb8-1a37" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -6554,6 +6575,7 @@ Tzeentch (en la selección de ejército cuentan como parte de la unidad, así qu
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9111-f06f-97c9-5d5b" name="New CategoryLink" hidden="false" targetId="ba68-224b-3224-a908" primary="true"/>
+        <categoryLink id="fb56-6d32-a979-36db" name="Demonios" hidden="false" targetId="a404-6cbc-66f2-e566" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fd88-c035-7a91-0aa6" name="Portadores de plaga" hidden="false" collective="false" import="true" type="upgrade">
@@ -6649,6 +6671,7 @@ Tzeentch (en la selección de ejército cuentan como parte de la unidad, así qu
       </infoLinks>
       <categoryLinks>
         <categoryLink id="27fe-8432-5832-1056" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="true"/>
+        <categoryLink id="7cf6-b20b-e66d-c18d" name="Demonios" hidden="false" targetId="a404-6cbc-66f2-e566" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bc7e-76cd-09d5-e0f7" name="Objetos mágicos (requieren marca apropiada)" hidden="false" collective="false" import="true" type="upgrade">
@@ -7097,6 +7120,7 @@ primero. Puede ser hechicero de nivel 1 o 2, a coste de 40 puntos por nivel (p.e
         <categoryLink id="4bb8-b9d0-f956-0917" name="New CategoryLink" hidden="false" targetId="9769-7233-6405-675e" primary="true"/>
         <categoryLink id="92e7-ed9c-195b-e98b" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="false"/>
         <categoryLink id="0903-43ce-de5d-8e2d" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="false"/>
+        <categoryLink id="0c2c-abea-e0c4-affa" name="Demonios" hidden="false" targetId="a404-6cbc-66f2-e566" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3287-699f-e46f-4e35" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -7264,6 +7288,7 @@ primero. Puede ser hechicero de nivel 1 o 2, a coste de 40 puntos por nivel (p.e
         <categoryLink id="bce7-dedb-c9c4-4623" name="New CategoryLink" hidden="false" targetId="9769-7233-6405-675e" primary="true"/>
         <categoryLink id="2214-a3cc-57de-53fa" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="false"/>
         <categoryLink id="b450-caa8-978f-3f49" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="false"/>
+        <categoryLink id="eeb1-4943-1e89-c444" name="Demonios" hidden="false" targetId="a404-6cbc-66f2-e566" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0c74-35c3-3b10-f3e0" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -7437,6 +7462,7 @@ primero. Puede ser hechicero de nivel 1 o 2, a coste de 40 puntos por nivel (p.e
         <categoryLink id="9e27-77b9-fc68-fb34" name="New CategoryLink" hidden="false" targetId="9769-7233-6405-675e" primary="true"/>
         <categoryLink id="aad2-c4dd-995a-e148" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="false"/>
         <categoryLink id="dfd2-a7d5-28cf-537b" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="false"/>
+        <categoryLink id="9018-fad0-546b-bfc3" name="Demonios" hidden="false" targetId="a404-6cbc-66f2-e566" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f926-397c-f2c3-574f" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -7611,6 +7637,7 @@ primero. Puede ser hechicero de nivel 1 o 2, a coste de 40 puntos por nivel (p.e
         <categoryLink id="1e36-4090-a3aa-7430" name="New CategoryLink" hidden="false" targetId="9769-7233-6405-675e" primary="true"/>
         <categoryLink id="3816-f9eb-f82f-7458" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="false"/>
         <categoryLink id="8e7a-095c-f917-5dbc" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="false"/>
+        <categoryLink id="4367-366b-b80c-751d" name="Demonios" hidden="false" targetId="a404-6cbc-66f2-e566" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6cde-abc8-8561-94d8" name="Objetos mágicos" hidden="false" collective="false" import="true" type="upgrade">
@@ -7799,6 +7826,7 @@ primero. Puede ser hechicero de nivel 1 o 2, a coste de 40 puntos por nivel (p.e
       <categoryLinks>
         <categoryLink id="0f8a-590a-4e2c-f8fc" name="New CategoryLink" hidden="false" targetId="9769-7233-6405-675e" primary="true"/>
         <categoryLink id="cd67-397a-5d07-0319" name="New CategoryLink" hidden="false" targetId="c647-4209-4e6c-206a" primary="false"/>
+        <categoryLink id="78b6-1ca3-f29c-3e5b" name="Demonios" hidden="false" targetId="a404-6cbc-66f2-e566" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="224e-d44d-24b2-fb21" name="Objetos mágicos (requieren marca apropiada)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8309,7 +8337,7 @@ primero. Puede ser hechicero de nivel 1 a 4, a coste de 40 puntos por nivel (p.e
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5428-783f-7a05-1bf6" name="New CategoryLink" hidden="false" targetId="184a-30ec-bf7c-b603" primary="true"/>
-        <categoryLink id="d3bc-2829-531d-24cc" name="New CategoryLink" hidden="false" targetId="102e-012c-5785-3354" primary="false"/>
+        <categoryLink id="f49e-21e4-0338-dfe6" name="Unidad especial" hidden="false" targetId="102e-012c-5785-3354" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ff29-d201-690c-cb96" name="Ocupa una opción extra de unidad especial" hidden="false" collective="false" import="true" type="upgrade">
